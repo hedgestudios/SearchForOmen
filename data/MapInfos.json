@@ -1,12 +1,14 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Village","order":1,"parentId":0,"scrollX":841.7142857142857,"scrollY":516.8571428571428},
-{"id":2,"expanded":true,"name":"Path_to_Forest","order":2,"parentId":0,"scrollX":796,"scrollY":540.5},
-{"id":3,"expanded":false,"name":"Forest_Puzzle_2","order":3,"parentId":0,"scrollX":551.2,"scrollY":437.2},
-{"id":4,"expanded":true,"name":"Boat_Crash_(beach1)","order":4,"parentId":0,"scrollX":944,"scrollY":1132.4},
-{"id":5,"expanded":false,"name":"After_Boat_Crash_P1_(beach2)","order":5,"parentId":4,"scrollX":455.2,"scrollY":515.6},
-{"id":6,"expanded":false,"name":"Home_of_Wise_Kiwi(Beach6)","order":6,"parentId":4,"scrollX":768,"scrollY":1640.4},
-{"id":7,"expanded":false,"name":"Long_Beach_Path_1_(Beach4)","order":7,"parentId":4,"scrollX":772,"scrollY":315.5},
-{"id":8,"expanded":false,"name":"Beach_Turn_(Beach3)","order":8,"parentId":4,"scrollX":695.2,"scrollY":467.6},
-{"id":9,"expanded":false,"name":"Beach_Turn_2(Beach5)","order":9,"parentId":4,"scrollX":605,"scrollY":532.5}
+{"id":1,"expanded":true,"name":"Village","order":1,"parentId":0,"scrollX":1040,"scrollY":624},
+{"id":2,"expanded":true,"name":"Path_to_Forest","order":3,"parentId":0,"scrollX":740.4444444444445,"scrollY":532.8888888888889},
+{"id":3,"expanded":false,"name":"Forest_Puzzle_2","order":4,"parentId":0,"scrollX":507.55555555555554,"scrollY":396},
+{"id":4,"expanded":true,"name":"Boat_Crash_(beach1)","order":5,"parentId":0,"scrollX":932.4444444444445,"scrollY":1132},
+{"id":5,"expanded":false,"name":"After_Boat_Crash_P1_(beach2)","order":6,"parentId":4,"scrollX":507.55555555555554,"scrollY":444},
+{"id":6,"expanded":false,"name":"Home_of_Wise_Kiwi(Beach6)","order":7,"parentId":4,"scrollX":784.8888888888889,"scrollY":316.8888888888889},
+{"id":7,"expanded":false,"name":"Long_Beach_Path_1_(Beach4)","order":8,"parentId":4,"scrollX":514.6666666666666,"scrollY":316.8888888888889},
+{"id":8,"expanded":false,"name":"Beach_Turn_(Beach3)","order":9,"parentId":4,"scrollX":591.1111111111111,"scrollY":403.1111111111111},
+{"id":9,"expanded":true,"name":"Beach_Turn_2(Beach5)","order":10,"parentId":4,"scrollX":548.4444444444445,"scrollY":547.1111111111111},
+{"id":10,"expanded":true,"name":"House to shore","order":2,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":11,"expanded":false,"name":"Maze","order":11,"parentId":9,"scrollX":832,"scrollY":640}
 ]
