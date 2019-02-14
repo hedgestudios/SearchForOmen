@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Village","order":1,"parentId":0,"scrollX":643.5,"scrollY":452.25},
-{"id":2,"expanded":true,"name":"Path_to_Forest","order":2,"parentId":0,"scrollX":832,"scrollY":624},
+{"id":1,"expanded":true,"name":"Village","order":1,"parentId":0,"scrollX":577.5,"scrollY":464.25},
+{"id":2,"expanded":true,"name":"Path_to_Forest","order":2,"parentId":0,"scrollX":745.5,"scrollY":627.75},
 {"id":3,"expanded":false,"name":"Forest_Puzzle_2","order":3,"parentId":0,"scrollX":577.5,"scrollY":464.25},
 {"id":4,"expanded":true,"name":"Boat_Crash_(beach1)","order":4,"parentId":0,"scrollX":696,"scrollY":1442.25},
 {"id":5,"expanded":false,"name":"After_Boat_Crash_P1_(beach2)","order":5,"parentId":4,"scrollX":577.5,"scrollY":464.25},
