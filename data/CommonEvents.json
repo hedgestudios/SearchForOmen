@@ -3,5 +3,6 @@ null,
 {"id":1,"list":[{"code":230,"indent":0,"parameters":[60]},{"code":122,"indent":0,"parameters":[1,1,1,0,1]},{"code":111,"indent":0,"parameters":[1,1,0,60,1]},{"code":122,"indent":1,"parameters":[2,2,1,0,1]},{"code":122,"indent":1,"parameters":[1,1,0,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":111,"indent":0,"parameters":[1,2,0,12,0]},{"code":122,"indent":1,"parameters":[2,2,0,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Time System","switchId":1,"trigger":2},
 {"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":108,"indent":0,"parameters":["<vehicle: 'stretch'>"]},{"code":108,"indent":0,"parameters":["charset: 'Vehicle', 1"]},{"code":408,"indent":0,"parameters":["altitude: 3"]},{"code":408,"indent":0,"parameters":["speed: 2"]},{"code":408,"indent":0,"parameters":["passability: airship"]},{"code":108,"indent":0,"parameters":["</vehicle>"]},{"code":0,"indent":0,"parameters":[]}],"name":"Stretch_hog","switchId":1,"trigger":0}
 ]
