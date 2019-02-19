@@ -4,5 +4,5 @@ null,
 {"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":5,"list":[{"code":108,"indent":0,"parameters":["<vehicle: 'stretch'>"]},{"code":108,"indent":0,"parameters":["charset: 'Vehicle', 1"]},{"code":408,"indent":0,"parameters":["altitude: 3"]},{"code":408,"indent":0,"parameters":["speed: 2"]},{"code":408,"indent":0,"parameters":["passability: airship"]},{"code":108,"indent":0,"parameters":["</vehicle>"]},{"code":0,"indent":0,"parameters":[]}],"name":"Stretch_hog","switchId":1,"trigger":0}
+{"id":5,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
