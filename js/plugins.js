@@ -19,5 +19,7 @@ var $plugins =
 {"name":"KhasAdvancedFog","status":true,"description":"[3.0] Adds procedural fog to your game.","parameters":{"Variable Fog Density":"ON","Zoom Compatibility":"OFF","MBS Zoom":"OFF","Transfer Reset":"OFF","Auto Battle Fog":"ON"}},
 {"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
 {"name":"-SHATTEREFFECT","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
-{"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}}
+{"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}},
+{"name":"-TIMER","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
+{"name":"MOG_VisualTimer","status":true,"description":"(v1.1) Apresenta o contador de tempo através de imagens.","parameters":{"Number Visible":"true","Gauge Visible":"true","X-Axis":"310","Y-Axis":"64","Seconds X-Axis":"132","Seconds Y-Axis":"0","Minutes X-Axis":"82","Minutes Y-Axis":"0","Gauge X-Axis":"11","Gauge Y-Axis":"34","Auto Fade":"true","Fade Max":"120","Gauge Angle":"0","Number Angle":"0"}}
 ];
