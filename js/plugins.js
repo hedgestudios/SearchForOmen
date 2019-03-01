@@ -4,7 +4,8 @@ var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"MadeWithMv","status":true,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
-{"name":"-WEATHER","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
+{"name":"SRD_CameraCore","status":false,"description":"Allows developers to preform various camera motions including focusing and zooming.","parameters":{"Default Zoom":"1","Zoom Pictures?":"true","Margin Formula":"(Graphics.width / scale) - Graphics.width","Fix Black Lines":"false"}},
+{"name":"SRD_SmoothCamera","status":false,"description":"Gives the camera of your game smoother motion during gameplay and specific camera motions.","parameters":{"Delay Power":"5","Cut Off Value":"0.02"}},
 {"name":"MOG_Weather_EX","status":true,"description":"(v3.1 *) Adiciona novos efeitos de climas.","parameters":{"Battle Weather":"true"}},
 {"name":"MOG_Footsteps","status":true,"description":"(v1.1) Apresenta as pegadas do character em determinadas regiões.","parameters":{"StepFoot Terrain ID":"1","WaterSlash Terrain ID":"2","Duration":"60","X-Axis Offset":"0","Y-Axis Offset":"5","Play WaterSplash SE":"false","SE File Name":"Ice1"}},
 {"name":"tile_changer_(mv)","status":true,"description":"Change tiles on map or copy tiles from another map","parameters":{}},
@@ -22,5 +23,6 @@ var $plugins =
 {"name":"-SHATTEREFFECT","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}},
 {"name":"-TIMER","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
-{"name":"MOG_VisualTimer","status":true,"description":"(v1.1) Apresenta o contador de tempo através de imagens.","parameters":{"Number Visible":"true","Gauge Visible":"true","X-Axis":"310","Y-Axis":"64","Seconds X-Axis":"132","Seconds Y-Axis":"0","Minutes X-Axis":"82","Minutes Y-Axis":"0","Gauge X-Axis":"11","Gauge Y-Axis":"34","Auto Fade":"true","Fade Max":"120","Gauge Angle":"0","Number Angle":"0"}}
+{"name":"MOG_VisualTimer","status":true,"description":"(v1.1) Apresenta o contador de tempo através de imagens.","parameters":{"Number Visible":"true","Gauge Visible":"true","X-Axis":"310","Y-Axis":"64","Seconds X-Axis":"132","Seconds Y-Axis":"0","Minutes X-Axis":"82","Minutes Y-Axis":"0","Gauge X-Axis":"11","Gauge Y-Axis":"34","Auto Fade":"true","Fade Max":"120","Gauge Angle":"0","Number Angle":"0"}},
+{"name":"MOG_EventIndicators","status":true,"description":"(v1.0) Apresenta indicadores animados acima do evento.","parameters":{"Default Font Size":"16","Default X - Axis":"0","Default Y - Axis":"0"}}
 ];
