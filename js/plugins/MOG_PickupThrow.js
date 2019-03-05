@@ -185,7 +185,7 @@ Game_CharacterBase.prototype.canPassThrow = function(x, y, d) {
     if (this.isThrough() || this.isDebugThrough()) {
         return true;
     };
-    if (!$gameMap.isPassable(x3, y3)) {
+    if (!$gameMap.isPassable(x3, y3) && !($gameMap.regionId(x3, y3)==8)) {
         return false;
     };
     if (this.isCollidedWithCharacters(x2, y2)) {
