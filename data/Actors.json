@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"hedgehogspirites","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"hedgefaces","traits":[],"initialLevel":1,"maxLevel":99,"name":"BigMama","nickname":"","note":"Footstep Sprite: HedgehogFootStep","profile":""},
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"hedgehogspirites","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"hedgefaces","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mama","nickname":"","note":"Footstep Sprite: HedgehogFootStep","profile":""},
 {"id":2,"battlerName":"Actor1_8","characterIndex":1,"characterName":"hedgehogspirites","classId":2,"equips":[2,1,2,3,0],"faceIndex":1,"faceName":"hedgefaces","traits":[],"initialLevel":1,"maxLevel":99,"name":"Sebastien","nickname":"","note":"Footstep Sprite: HedgehogFootStep","profile":""},
 {"id":3,"battlerName":"Actor3_8","characterIndex":2,"characterName":"hedgehogspirites","classId":3,"equips":[3,0,2,3,4],"faceIndex":2,"faceName":"hedgefaces","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mercedes","nickname":"","note":"Footstep Sprite: HedgehogFootStep","profile":""},
 {"id":4,"battlerName":"Actor2_7","characterIndex":3,"characterName":"hedgehogspirites","classId":4,"equips":[4,0,2,3,4],"faceIndex":3,"faceName":"hedgefaces","traits":[],"initialLevel":1,"maxLevel":99,"name":"Omen","nickname":"","note":"Footstep Sprite: HedgehogFootStep","profile":""}
