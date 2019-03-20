@@ -296,6 +296,11 @@ Khas.Lighting.LIGHTS = {
         intensity: 100, variation: 0,
         offset_x: 0, offset_y: 0  
     },
+    rainbow: {
+      fileName: "rainbow",
+      intensity: 100, variation: 0,
+      offset_x: 0, offset_y: 0  
+  },
     purple: {
         fileName: "purple",
         intensity: 100, variation: 0,
