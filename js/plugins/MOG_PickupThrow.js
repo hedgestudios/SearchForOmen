@@ -86,6 +86,7 @@
 	Moghunter.pickDirectionButton = String(Moghunter.parameters['Hold Direction'] || 'true');
 	Moghunter.pickDirectionButtonKey = String(Moghunter.parameters['Hold Direction Button'] || 'pagedown');
 	Moghunter.pickSoundFile = String(Moghunter.parameters['Sound File'] || 'Jump1');
+	Moghunter.pickUpSoundFile = String(Moghunter.parameters['BoulderPickUp'] || 'BoulderPickUp');
 
 //=============================================================================
 // ** Game_Interpreter
@@ -257,6 +258,7 @@ Game_Event.prototype.pickUp = function() {
 	};
 	var x = $gamePlayer._x - this._x;
 	var y = $gamePlayer._y - this._y;
+	SoundManager.playThrowSE(String(Moghunter.pickUpSoundFile));
 	this.jump(x,y,this._direction)
 };
 
