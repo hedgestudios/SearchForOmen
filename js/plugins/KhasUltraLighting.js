@@ -206,7 +206,7 @@ Khas.Lighting.LIGHTS = {
     // CANDLE
     candle: {
         fileName: "candle",
-        intensity: 80, variation: 20,
+        intensity: 80, variation: 0,
         offset_x: 0, offset_y: 0  
     },
     // TORCH
