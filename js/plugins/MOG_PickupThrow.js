@@ -21,15 +21,15 @@
  * @param Hold Direction Button
  * @desc Definição do botão que segura a direção.
  * @default pagedown
- * 
+ *
  * @param Sound File
  * @desc Definição do arquivo de som.
  * @default Jump1
  *
- * @help  
+ * @help
  * =============================================================================
  * +++ MOG - Pick Up and Throw (v1.2) +++
- * By Moghunter 
+ * By Moghunter
  * https://atelierrgss.wordpress.com/
  * =============================================================================
  * O sistema permite arremessar o objetos (Eventos) do mapa
@@ -46,7 +46,7 @@
  * =============================================================================
  * CHARACTER POSES
  * =============================================================================
- * Para definir o nome da imagem da pose do personagem, nomeie a imagem da 
+ * Para definir o nome da imagem da pose do personagem, nomeie a imagem da
  * seguinte forma.
  *
  * ORIGINAL_FILE_NAME + _pick.png
@@ -61,13 +61,13 @@
  * Para ativar ou desativar o sistema use o plugin abaixo.
  *
  * pickup_enable
- * 
+ *
  * pickup_disable
  *
  * =============================================================================
  * HISTÓRICO
  * =============================================================================
- * v1.3 - Compatibilidade com Char Poses plugin. 
+ * v1.3 - Compatibilidade com Char Poses plugin.
  * v1.2 - Mudança da noteTag para padronizar a forma de comandos.
  * v1.1 - Adição do plugin command de ativar e desativar o sistema.
  */
@@ -77,7 +77,7 @@
 //=============================================================================
 　　var Imported = Imported || {};
 　　Imported.MOG_PickupThrow = true;
-　　var Moghunter = Moghunter || {}; 
+　　var Moghunter = Moghunter || {};
 
   　Moghunter.parameters = PluginManager.parameters('MOG_PickupThrow');
 	Moghunter.pickTargetHeight = Number(Moghunter.parameters['Character Height'] || 22);
@@ -85,12 +85,12 @@
 	Moghunter.pickPose = String(Moghunter.parameters['Character Pose'] || 'true');
 	Moghunter.pickDirectionButton = String(Moghunter.parameters['Hold Direction'] || 'true');
 	Moghunter.pickDirectionButtonKey = String(Moghunter.parameters['Hold Direction Button'] || 'pagedown');
-	Moghunter.pickSoundFile = String(Moghunter.parameters['Sound File'] || 'Jump1');
+	Moghunter.pickSoundFile = String(Moghunter.parameters['BoulderThrow'] || 'BoulderThrow');
 	Moghunter.pickUpSoundFile = String(Moghunter.parameters['BoulderPickUp'] || 'BoulderPickUp');
 
 //=============================================================================
 // ** Game_Interpreter
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * PluginCommand
@@ -102,10 +102,10 @@ Game_Interpreter.prototype.pluginCommand = function(command, args) {
         $gameSystem._pickupData[0] = true;
 	} else if (command === "pickup_disable")  {
         $gameSystem._pickupData[0] = false;
-	};	
+	};
 	return true;
 };
-	
+
 //=============================================================================
 // ** Game System
 //=============================================================================
@@ -117,11 +117,11 @@ var _mog_pickup_Gsys_initialize = Game_System.prototype.initialize;
 Game_System.prototype.initialize = function() {
     _mog_pickup_Gsys_initialize.call(this);
 	this._pickupData = [true,false];
-};	
-	
+};
+
 //=============================================================================
 // ** Game Character
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * initMembers
@@ -133,7 +133,7 @@ Game_CharacterBase.prototype.initMembers = function() {
    this._pickup.enabled = false;
    this._pickup.originalName = this._characterName;
    this._pickup.pose = String(Moghunter.pickPose) === "true" ? true : false;
-   this._pickup.wait = 0;   
+   this._pickup.wait = 0;
    this._pickup.check = false;
    this._throw = {};
    this._throw.enabled = false;
@@ -166,7 +166,7 @@ Game_CharacterBase.prototype.updatePickUp = function() {
     this._x = $gamePlayer._x;
 	this._y = $gamePlayer._y;
     this._realX = $gamePlayer._realX;
-    this._realY = $gamePlayer._realY;	
+    this._realY = $gamePlayer._realY;
 };
 
 //==============================
@@ -175,9 +175,9 @@ Game_CharacterBase.prototype.updatePickUp = function() {
 Game_CharacterBase.prototype.canPassThrow = function(x, y, d) {
     var x2 = $gameMap.roundXWithDirection(x, d);
     var y2 = $gameMap.roundYWithDirection(y, d);
-	if (d === 2) {x3 = x; y3 = y + 1;	
-	} else if (d === 4) {x3 = x - 1;y3 = y;		
-	} else if (d === 6) {x3 = x + 1;y3 = y;	
+	if (d === 2) {x3 = x; y3 = y + 1;
+	} else if (d === 4) {x3 = x - 1;y3 = y;
+	} else if (d === 6) {x3 = x + 1;y3 = y;
 	} else {x3 = x;y3 = y - 1;
 	};
     if (!$gameMap.isValid(x2, y2)) {
@@ -197,7 +197,7 @@ Game_CharacterBase.prototype.canPassThrow = function(x, y, d) {
 
 //=============================================================================
 // ** Game Event
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * start
@@ -264,7 +264,7 @@ Game_Event.prototype.pickUp = function() {
 
 //=============================================================================
 // ** Game Player
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * Initialize
@@ -281,12 +281,12 @@ Game_Player.prototype.initialize = function() {
 //==============================
 var _mog_gplayer_moveByInput = Game_Player.prototype.moveByInput;
 Game_Player.prototype.moveByInput = function() {
-	if (this._pickup.wait > 0) {return};	
+	if (this._pickup.wait > 0) {return};
 	if (this._pickup.enabled && this.canMove()) {
 	    if (Input.isTriggered('ok')) {this.throwTarget();return};
 		if (Input.isPressed(this._dirButtonK)) {this.holdDirectionT();return};
     };
-	_mog_gplayer_moveByInput.call(this);	
+	_mog_gplayer_moveByInput.call(this);
 };
 
 //==============================
@@ -306,7 +306,7 @@ Game_Player.prototype.holdDirectionT = function() {
 var _mog_gplayer_pick_triggerAction = Game_Player.prototype.triggerAction;
 Game_Player.prototype.triggerAction = function() {
 	if (this._throw.wait > 0) {return false};
-	if (this._pickup.wait > 0) {return false};	
+	if (this._pickup.wait > 0) {return false};
     if (this._pickup.enabled) {return false};
 	_mog_gplayer_pick_triggerAction.call(this);
 	return false;
@@ -331,25 +331,25 @@ Game_Player.prototype.throwTarget = function() {
 // * throw Event
 //==============================
 Game_Player.prototype.throwEvent = function(event) {
-	var r = event._throw.range;	var xr = 0;	var yr = 0;	
+	var r = event._throw.range;	var xr = 0;	var yr = 0;
 	if (this._direction === 2) {
 		x = this._x; y = this._y + r - 1; x2 = 0; y2 = +r;
 		for (var i = 0; i < r; i++) {
 	    	if (this.canPassThrow(x,y,this._direction)) {xr = x2; yr = y2;break};
 			y--;y2--;
-		};	
+		};
     } else if (this._direction === 4) {
 		x = this._x - r + 1; y = this._y; x2 = -r; y2 = 0;
 		for (var i = 0; i < r; i++) {
 	    	if (this.canPassThrow(x,y,this._direction)) {xr = x2; yr = y2;break};
 			x++;x2++;
-		};	    
+		};
     } else if (this._direction === 6) {
 		x = this._x + r - 1; y = this._y; x2 = +r; y2 = 0;
 		for (var i = 0; i < r; i++) {
 	    	if (this.canPassThrow(x,y,this._direction)) {xr = x2; yr = y2;break};
 			x--;x2--;
-		};			
+		};
     } else if (this._direction === 8) {
 		x = this._x; y = this._y - r + 1; x2 = 0; y2 = -r;
 		for (var i = 0; i < r; i++) {
@@ -362,7 +362,7 @@ Game_Player.prototype.throwEvent = function(event) {
 	event._throw.enabled = false
     event._throw.wait = 30;
 	event._through = this._throw.through;
-	event._directionFix = this._throw._directionFix;	
+	event._directionFix = this._throw._directionFix;
 	this._pickup.check = true;
 };
 
@@ -385,7 +385,7 @@ Game_Player.prototype.clearPick = function() {
 
 //=============================================================================
 // ** Sound Manager
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * Play ThrowSE
@@ -396,11 +396,11 @@ SoundManager.playThrowSE = function(fileName){
    se.pitch = 100;
    se.volume = 100;
    AudioManager.playSe(se);
-};  
+};
 
 //=============================================================================
 // ** Sprite Character
-//=============================================================================	
+//=============================================================================
 
 //==============================
 // * update Position
@@ -411,7 +411,7 @@ Sprite_Character.prototype.updatePosition = function() {
 	_mog_pick_sprChar_updatePosition.call(this);
 	if (this._character._throw.wait > 0) {this.z = $gamePlayer.screenZ() + 1};
 };
-	
+
 //==============================
 // * Need Update Pick
 //==============================
@@ -419,12 +419,12 @@ Sprite_Character.prototype.needUpdatePick = function() {
 	 if (this._character._throw.enabled && this._character._throw.wait > 0) {return false};
 	 return this._character._throw.enabled;
 };
-	
+
 //==============================
 // * update Sprt Pick
 //==============================
 Sprite_Character.prototype.updateSprtPick = function() {
     this.x = $gamePlayer.screenX();
     this.y = $gamePlayer.screenY() - Moghunter.pickTargetHeight;
-    this.z = $gamePlayer.screenZ() + 1;	
+    this.z = $gamePlayer.screenZ() + 1;
 };
