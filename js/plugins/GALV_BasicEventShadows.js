@@ -92,7 +92,7 @@ Galv.BES.eShadows = function(status) {
 Galv.BES.Game_System_initialize = Game_System.prototype.initialize;
 Game_System.prototype.initialize = function() {
 	Galv.BES.Game_System_initialize.call(this);
-	this._playerShadow = true;
+	this._playerShadow = false;
 	this._eventShadows = true;
 };
 
