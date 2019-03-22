@@ -394,7 +394,7 @@ SoundManager.playThrowSE = function(fileName){
    var se = {};
    se.name = fileName;
    se.pitch = 100;
-   se.volume = 100;
+   se.volume = 35;
    AudioManager.playSe(se);
 };
 
