@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"7.Village","order":1,"parentId":0,"scrollX":927.4285714285713,"scrollY":633.4285714285714},
 {"id":2,"expanded":true,"name":"13.Path_to_Forest","order":2,"parentId":0,"scrollX":1078.2857142857142,"scrollY":570},
-{"id":3,"expanded":false,"name":"15.Forest_Puzzle_(P3)","order":3,"parentId":0,"scrollX":855.4285714285713,"scrollY":516.8571428571428},
+{"id":3,"expanded":false,"name":"15.Forest_Puzzle_(P3)","order":3,"parentId":0,"scrollX":840,"scrollY":547.7142857142857},
 {"id":4,"expanded":true,"name":"1.Boat_Crash_(beach1)","order":9,"parentId":0,"scrollX":826.2857142857142,"scrollY":1538.5714285714284},
 {"id":5,"expanded":true,"name":"2.After_Boat_Crash_P1_(beach2)","order":5,"parentId":0,"scrollX":840,"scrollY":547.7142857142857},
 {"id":6,"expanded":false,"name":"5.Home_of_Wise_Kiwi_P2(Beach6)","order":6,"parentId":0,"scrollX":826.2857142857142,"scrollY":547.7142857142857},
@@ -27,7 +27,7 @@ null,
 {"id":25,"expanded":false,"name":"10.House_interior3","order":21,"parentId":0,"scrollX":840,"scrollY":547.7142857142857},
 {"id":26,"expanded":false,"name":"21.PUZZLE_1_IMPROVED","order":22,"parentId":0,"scrollX":1093.7142857142856,"scrollY":542.5714285714286},
 {"id":27,"expanded":false,"name":"4.Kiwi_mini_game_(Beach5)","order":26,"parentId":0,"scrollX":826.2857142857142,"scrollY":700.2857142857142},
-{"id":28,"expanded":false,"name":"27.Final Beach","order":27,"parentId":0,"scrollX":841.7142857142857,"scrollY":547.7142857142857},
+{"id":28,"expanded":false,"name":"27.Final Beach","order":27,"parentId":0,"scrollX":826.2857142857142,"scrollY":534},
 {"id":29,"expanded":false,"name":"26.Dead Beach","order":29,"parentId":0,"scrollX":826.2857142857142,"scrollY":534},
 {"id":30,"expanded":false,"name":"28.End_of_game","order":30,"parentId":0,"scrollX":840,"scrollY":547.7142857142857}
 ]
