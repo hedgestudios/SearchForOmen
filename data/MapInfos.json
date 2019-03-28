@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"7.Village","order":1,"parentId":0,"scrollX":967.1999999999999,"scrollY":772.8},
-{"id":2,"expanded":true,"name":"13.Path_to_Forest","order":2,"parentId":0,"scrollX":986,"scrollY":782},
+{"id":1,"expanded":true,"name":"7.Village","order":1,"parentId":0,"scrollX":988,"scrollY":623},
+{"id":2,"expanded":true,"name":"13.Path_to_Forest","order":2,"parentId":0,"scrollX":980,"scrollY":639},
 {"id":3,"expanded":false,"name":"15.Forest_Puzzle_(P3)","order":29,"parentId":0,"scrollX":822,"scrollY":660},
 {"id":4,"expanded":true,"name":"1.Boat_Crash_(beach1)","order":7,"parentId":0,"scrollX":806,"scrollY":792},
 {"id":5,"expanded":true,"name":"2.After_Boat_Crash_P1_(beach2)","order":3,"parentId":0,"scrollX":986.4,"scrollY":792},
@@ -25,13 +25,13 @@ null,
 {"id":23,"expanded":false,"name":"6.House_of_kiwi_the_wise","order":17,"parentId":0,"scrollX":704.5714285714286,"scrollY":565.7142857142857},
 {"id":24,"expanded":false,"name":"12.Kiwi_rec_room","order":18,"parentId":0,"scrollX":986.4,"scrollY":792},
 {"id":25,"expanded":false,"name":"10.House_interior3","order":19,"parentId":0,"scrollX":704.5714285714286,"scrollY":565.7142857142857},
-{"id":26,"expanded":false,"name":"21.PUZZLE_1_IMPROVED","order":20,"parentId":0,"scrollX":985.7142857142857,"scrollY":648},
+{"id":26,"expanded":false,"name":"21.PUZZLE_1_IMPROVED","order":20,"parentId":0,"scrollX":723,"scrollY":630.75},
 {"id":27,"expanded":false,"name":"4.Kiwi_mini_game_(Beach5)","order":24,"parentId":0,"scrollX":986.4,"scrollY":792},
 {"id":28,"expanded":false,"name":"27.Final Beach","order":25,"parentId":0,"scrollX":874.2857142857142,"scrollY":747.4285714285713},
 {"id":29,"expanded":false,"name":"26.Dead Beach","order":27,"parentId":0,"scrollX":986.4,"scrollY":792},
 {"id":30,"expanded":false,"name":"28.End_of_game","order":28,"parentId":0,"scrollX":822,"scrollY":660},
 {"id":31,"expanded":false,"name":"MAP031","order":30,"parentId":0,"scrollX":723.4285714285713,"scrollY":1114.2857142857142},
-{"id":32,"expanded":true,"name":"MAP032","order":31,"parentId":0,"scrollX":690.8571428571428,"scrollY":565.7142857142857},
-{"id":33,"expanded":false,"name":"MAP033","order":32,"parentId":0,"scrollX":704.5714285714286,"scrollY":552},
-{"id":34,"expanded":false,"name":"MAP034","order":33,"parentId":0,"scrollX":690.8571428571428,"scrollY":565.7142857142857}
+{"id":32,"expanded":true,"name":"MAP032","order":31,"parentId":0,"scrollX":964,"scrollY":639},
+{"id":33,"expanded":false,"name":"MAP033","order":32,"parentId":0,"scrollX":980,"scrollY":639},
+{"id":34,"expanded":false,"name":"MAP034","order":33,"parentId":0,"scrollX":964,"scrollY":639}
 ]
