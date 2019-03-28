@@ -11,7 +11,7 @@ null,
 {"id":9,"expanded":true,"name":"old map 4 (Depreciated))","order":28,"parentId":0,"scrollX":855.4285714285713,"scrollY":528},
 {"id":10,"expanded":false,"name":"18.Dead Beach","order":10,"parentId":0,"scrollX":841.7142857142857,"scrollY":704.5714285714286},
 {"id":11,"expanded":false,"name":"23.Volcano_Peak","order":11,"parentId":0,"scrollX":841.7142857142857,"scrollY":752.5714285714286},
-{"id":12,"expanded":false,"name":"22.Volcano_Puzzle2","order":12,"parentId":0,"scrollX":841.7142857142857,"scrollY":514.2857142857142},
+{"id":12,"expanded":false,"name":"22.Volcano_Puzzle2","order":12,"parentId":0,"scrollX":828.8571428571428,"scrollY":590.5714285714286},
 {"id":13,"expanded":true,"name":"9.House_interior2","order":15,"parentId":0,"scrollX":855.4285714285713,"scrollY":528},
 {"id":14,"expanded":false,"name":"24.Final_puzzle1","order":16,"parentId":0,"scrollX":929.1428571428571,"scrollY":752.5714285714286},
 {"id":15,"expanded":false,"name":"26.Path_to_final_map","order":23,"parentId":0,"scrollX":977.1428571428571,"scrollY":514.2857142857142},
@@ -31,6 +31,6 @@ null,
 {"id":29,"expanded":false,"name":"26.Dead Beach","order":29,"parentId":0,"scrollX":841.7142857142857,"scrollY":591.4285714285714},
 {"id":30,"expanded":false,"name":"28.End_of_game","order":30,"parentId":0,"scrollX":855.4285714285713,"scrollY":528},
 {"id":31,"expanded":false,"name":"MAP031","order":31,"parentId":0,"scrollX":841.7142857142857,"scrollY":1254.857142857143},
-{"id":32,"expanded":true,"name":"MAP032","order":32,"parentId":0,"scrollX":841.7142857142857,"scrollY":768}
+{"id":32,"expanded":true,"name":"MAP032","order":32,"parentId":0,"scrollX":841.7142857142857,"scrollY":768},
 {"id":33,"expanded":false,"name":"MAP033","order":33,"parentId":0,"scrollX":739.7142857142857,"scrollY":590.5714285714286}
 ]
