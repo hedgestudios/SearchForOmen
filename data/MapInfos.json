@@ -30,8 +30,8 @@ null,
 {"id":28,"expanded":false,"name":"27.Final Beach","order":25,"parentId":0,"scrollX":874,"scrollY":748},
 {"id":29,"expanded":false,"name":"26.Dead Beach","order":27,"parentId":0,"scrollX":986.4,"scrollY":792},
 {"id":30,"expanded":false,"name":"28.End_of_game","order":28,"parentId":0,"scrollX":822,"scrollY":660},
-{"id":31,"expanded":false,"name":"MAP031","order":30,"parentId":0,"scrollX":806,"scrollY":1114},
-{"id":32,"expanded":true,"name":"MAP032","order":31,"parentId":0,"scrollX":822,"scrollY":660},
-{"id":33,"expanded":false,"name":"MAP033","order":32,"parentId":0,"scrollX":822,"scrollY":660},
-{"id":34,"expanded":false,"name":"MAP034","order":33,"parentId":0,"scrollX":806,"scrollY":828}
+{"id":31,"expanded":false,"name":"MAP031","order":30,"parentId":0,"scrollX":723,"scrollY":1113.75},
+{"id":32,"expanded":true,"name":"MAP032","order":31,"parentId":0,"scrollX":723,"scrollY":479.25},
+{"id":33,"expanded":false,"name":"MAP033","order":32,"parentId":0,"scrollX":808.5,"scrollY":467.25},
+{"id":34,"expanded":false,"name":"MAP034","order":33,"parentId":0,"scrollX":723,"scrollY":479.25}
 ]
