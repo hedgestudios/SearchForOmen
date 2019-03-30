@@ -1,11 +1,11 @@
 [
 null,
-{"id":1,"expanded":true,"name":"7.Village","order":1,"parentId":0,"scrollX":1208.7272727272727,"scrollY":1397.4545454545455},
-{"id":2,"expanded":true,"name":"13.Path_to_Forest","order":2,"parentId":0,"scrollX":968.7272727272727,"scrollY":780},
+{"id":1,"expanded":true,"name":"7.Village","order":1,"parentId":0,"scrollX":1113.6,"scrollY":1321.2},
+{"id":2,"expanded":true,"name":"13.Path_to_Forest","order":2,"parentId":0,"scrollX":1065.6,"scrollY":858},
 {"id":3,"expanded":false,"name":"15.Forest_Puzzle_(P3)","order":30,"parentId":0,"scrollX":476,"scrollY":349.5},
 {"id":4,"expanded":true,"name":"1.Boat_Crash_(beach1)","order":8,"parentId":0,"scrollX":826,"scrollY":792.5},
-{"id":5,"expanded":true,"name":"2.After_Boat_Crash_P1_(beach2)","order":4,"parentId":0,"scrollX":968.7272727272727,"scrollY":780},
-{"id":6,"expanded":false,"name":"5.Home_of_Wise_Kiwi_P2(Beach6)","order":5,"parentId":0,"scrollX":951.2727272727274,"scrollY":780},
+{"id":5,"expanded":true,"name":"2.After_Boat_Crash_P1_(beach2)","order":4,"parentId":0,"scrollX":1065.6,"scrollY":858},
+{"id":6,"expanded":false,"name":"5.Home_of_Wise_Kiwi_P2(Beach6)","order":5,"parentId":0,"scrollX":1046.3999999999999,"scrollY":858},
 {"id":7,"expanded":false,"name":"3.Path_after_first_puzzle","order":12,"parentId":0,"scrollX":524,"scrollY":370.5},
 {"id":8,"expanded":false,"name":"20.Volcano_intersection","order":13,"parentId":0,"scrollX":764,"scrollY":543.5},
 {"id":9,"expanded":true,"name":"old map 4 (Depreciated))","order":27,"parentId":0,"scrollX":764,"scrollY":658.5},
@@ -34,5 +34,5 @@ null,
 {"id":32,"expanded":true,"name":"MAP032","order":32,"parentId":0,"scrollX":1065.6,"scrollY":858},
 {"id":33,"expanded":false,"name":"MAP033","order":33,"parentId":0,"scrollX":918,"scrollY":524.25},
 {"id":34,"expanded":false,"name":"MAP034","order":34,"parentId":0,"scrollX":1065.6,"scrollY":858},
-{"id":35,"expanded":true,"name":"13.Path_to_Forest","order":3,"parentId":2,"scrollX":1094.3999999999999,"scrollY":838.8}
+{"id":35,"expanded":true,"name":"13.Path_to_Forest","order":3,"parentId":2,"scrollX":1724,"scrollY":946.5}
 ]
