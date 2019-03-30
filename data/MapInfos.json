@@ -30,9 +30,9 @@ null,
 {"id":28,"expanded":false,"name":"27.Final Beach","order":26,"parentId":0,"scrollX":826,"scrollY":534.5},
 {"id":29,"expanded":false,"name":"26.Dead Beach","order":28,"parentId":0,"scrollX":854,"scrollY":767.5},
 {"id":30,"expanded":false,"name":"28.End_of_game","order":29,"parentId":0,"scrollX":572,"scrollY":418.5},
-{"id":31,"expanded":false,"name":"MAP031","order":31,"parentId":0,"scrollX":786,"scrollY":780.75},
-{"id":32,"expanded":true,"name":"MAP032","order":32,"parentId":0,"scrollX":654,"scrollY":759.75},
-{"id":33,"expanded":false,"name":"MAP033","order":33,"parentId":0,"scrollX":666,"scrollY":524.25},
-{"id":34,"expanded":false,"name":"MAP034","order":34,"parentId":0,"scrollX":654,"scrollY":951.75},
-{"id":35,"expanded":true,"name":"13.Path_to_Forest","order":3,"parentId":2,"scrollX":1156.3636363636365,"scrollY":762.5454545454546}
+{"id":31,"expanded":false,"name":"MAP031","order":31,"parentId":0,"scrollX":1046.3999999999999,"scrollY":858},
+{"id":32,"expanded":true,"name":"MAP032","order":32,"parentId":0,"scrollX":1065.6,"scrollY":858},
+{"id":33,"expanded":false,"name":"MAP033","order":33,"parentId":0,"scrollX":918,"scrollY":524.25},
+{"id":34,"expanded":false,"name":"MAP034","order":34,"parentId":0,"scrollX":1065.6,"scrollY":858},
+{"id":35,"expanded":true,"name":"13.Path_to_Forest","order":3,"parentId":2,"scrollX":1094.3999999999999,"scrollY":838.8}
 ]
