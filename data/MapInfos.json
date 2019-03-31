@@ -5,7 +5,7 @@ null,
 {"id":3,"expanded":false,"name":"15.Forest_Puzzle_(P3)","order":32,"parentId":0,"scrollX":888,"scrollY":715},
 {"id":4,"expanded":true,"name":"1.Boat_Crash_(beach1)","order":10,"parentId":0,"scrollX":1004,"scrollY":1138.5},
 {"id":5,"expanded":true,"name":"2.After_Boat_Crash_P1_(beach2)","order":5,"parentId":0,"scrollX":436,"scrollY":396.5},
-{"id":6,"expanded":true,"name":"5.Home_of_Wise_Kiwi_P2(Beach6)","order":6,"parentId":0,"scrollX":747,"scrollY":698.5},
+{"id":6,"expanded":true,"name":"5.Home_of_Wise_Kiwi_P2(Beach6)","order":6,"parentId":0,"scrollX":826.2857142857142,"scrollY":698.5714285714286},
 {"id":7,"expanded":false,"name":"3.Path_after_first_puzzle","order":14,"parentId":0,"scrollX":761.1428571428571,"scrollY":612.8571428571428},
 {"id":8,"expanded":false,"name":"20.Volcano_intersection","order":15,"parentId":0,"scrollX":888,"scrollY":715},
 {"id":9,"expanded":true,"name":"old map 4 (Depreciated))","order":29,"parentId":0,"scrollX":761.1428571428571,"scrollY":612.8571428571428},
@@ -36,5 +36,5 @@ null,
 {"id":34,"expanded":false,"name":"MAP034","order":35,"parentId":0,"scrollX":872,"scrollY":773},
 {"id":35,"expanded":true,"name":"13.Path_to_Forest_remake","order":4,"parentId":2,"scrollX":707,"scrollY":939.5},
 {"id":36,"expanded":true,"name":"7.Village","order":2,"parentId":1,"scrollX":1307,"scrollY":1810.5},
-{"id":37,"expanded":false,"name":"MAP037","order":7,"parentId":6,"scrollX":1332,"scrollY":1072.5}
+{"id":37,"expanded":false,"name":"MAP037","order":7,"parentId":6,"scrollX":826.2857142857142,"scrollY":1008.8571428571428}
 ]
