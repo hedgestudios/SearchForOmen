@@ -18,7 +18,7 @@ var $plugins =
 {"name":"-SCENE","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"KhasCore","status":true,"description":"[2.0] Required by Khas plugins.","parameters":{}},
 {"name":"KhasGraphics","status":true,"description":"[1.1] Required by Khas graphics plugins.","parameters":{}},
-{"name":"KhasAdvancedFog","status":true,"description":"[3.0] Adds procedural fog to your game.","parameters":{"Variable Fog Density":"ON","Zoom Compatibility":"OFF","MBS Zoom":"OFF","Transfer Reset":"OFF","Auto Battle Fog":"ON"}},
+{"name":"KhasAdvancedFog","status":true,"description":"[3.0] Adds procedural fog to your game.","parameters":{"Variable Fog Density":"OFF","Zoom Compatibility":"OFF","MBS Zoom":"OFF","Transfer Reset":"OFF","Auto Battle Fog":"ON"}},
 {"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
 {"name":"-SHATTEREFFECT","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}},
