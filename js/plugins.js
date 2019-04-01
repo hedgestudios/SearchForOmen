@@ -34,5 +34,6 @@ var $plugins =
 {"name":"MOG_PictureEffects","status":true,"description":"(v1.4) Adiciona novas funções no sistema de mostrar imagens.","parameters":{}},
 {"name":"GALV_BasicEventShadows","status":true,"description":"(v.1.2) Display shadows under the player or events on the map.","parameters":{"Shadow Image":"Shadow1","Shadow Offset":"100"}},
 {"name":"SimpleFollowerControl","status":true,"description":"v1.1 Allows you simple control over your followers.","parameters":{"Follower Collision":"false"}},
-{"name":"MOG_CharParticles","status":true,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}}
+{"name":"MOG_CharParticles","status":true,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}},
+{"name":"SRD_MovieCredits","status":true,"description":"Shows a list of credits that move up the screen.","parameters":{"Credits File Source":"data/credits.txt","End Common Event ID":"0","Credits Speed":"0.75","Allow Speedup":"false","Speedup Speed":"4","Line Height":"32","Line Seperation":"48","== Credits Font ==":"","Default Font":"Times","Default Font Size":"34","Default Italic":"false","Default Text Color":"#adff2f","Default Outline Color":"rgba(0, 0, 0, 1)","Default Outline Width":"4"}}
 ];
