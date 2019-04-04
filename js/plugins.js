@@ -18,7 +18,7 @@ var $plugins =
 {"name":"-SCENE","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"KhasCore","status":true,"description":"[2.0] Required by Khas plugins.","parameters":{}},
 {"name":"KhasGraphics","status":true,"description":"[1.1] Required by Khas graphics plugins.","parameters":{}},
-{"name":"KhasAdvancedFog","status":true,"description":"[3.0] Adds procedural fog to your game.","parameters":{"Variable Fog Density":"ON","Zoom Compatibility":"OFF","MBS Zoom":"OFF","Transfer Reset":"OFF","Auto Battle Fog":"ON"}},
+{"name":"KhasAdvancedFog","status":true,"description":"[3.0] Adds procedural fog to your game.","parameters":{"Variable Fog Density":"OFF","Zoom Compatibility":"OFF","MBS Zoom":"OFF","Transfer Reset":"OFF","Auto Battle Fog":"ON"}},
 {"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
 {"name":"-SHATTEREFFECT","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}},
@@ -34,5 +34,6 @@ var $plugins =
 {"name":"MOG_PictureEffects","status":true,"description":"(v1.4) Adiciona novas funções no sistema de mostrar imagens.","parameters":{}},
 {"name":"GALV_BasicEventShadows","status":true,"description":"(v.1.2) Display shadows under the player or events on the map.","parameters":{"Shadow Image":"Shadow1","Shadow Offset":"100"}},
 {"name":"SimpleFollowerControl","status":true,"description":"v1.1 Allows you simple control over your followers.","parameters":{"Follower Collision":"false"}},
-{"name":"MOG_CharParticles","status":true,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}}
+{"name":"MOG_CharParticles","status":true,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}},
+{"name":"SRD_MovieCredits","status":true,"description":"Shows a list of credits that move up the screen.","parameters":{"Credits File Source":"data/credits.txt","End Common Event ID":"0","Credits Speed":"0.75","Allow Speedup":"false","Speedup Speed":"4","Line Height":"32","Line Seperation":"48","== Credits Font ==":"","Default Font":"Times","Default Font Size":"34","Default Italic":"false","Default Text Color":"#adff2f","Default Outline Color":"rgba(0, 0, 0, 1)","Default Outline Width":"4"}}
 ];
