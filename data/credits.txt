@@ -3,6 +3,10 @@ Special thanks to …
 Professor - 
 Vadim Bulitko
 
+Teaching Assistants -
+Sergio Poo Hernandez
+Robert MacGillivray
+
 Executive Producer - 
 Aaron Tripodi
 
@@ -10,7 +14,6 @@ Programmers -
 Jack Brons 
 Ansh Dubey
 Ian Seng
-
 
 Script Writer - 
 Courtney Graham
